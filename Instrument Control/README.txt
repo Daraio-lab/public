@@ -6,7 +6,10 @@ C++ CODE:
 PYTHON CODE:
 - None -
 
-MATLAB CODE
+MATLAB CODE:
 simpleDAQ.m: A simple routine for communicating with a DAQ system.
 	- Written for R2013b
 	- Requires Data Acquisition Toolbox
+
+CODE FOLDERS (Extended projects):
+- None -
