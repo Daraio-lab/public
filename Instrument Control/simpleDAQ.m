@@ -1,13 +1,15 @@
-% simpleDAQ, a simple script routine to read data from a NI DAQ board. This
+% simpleDAQ:
+% A simple script routine to read data from a NI DAQ board. This
 % does not write anything, just reads. Additional code for writing is
 % included, just remove the comments as necessary--search for WRITECODE
 %
-% This requires the Data Acquistion Toolbox. This is writen in R2013b.
+% This requires the Data Acquistion Toolbox and NImax installed.
+% This is writen in R2013b.
 %
-% This code is written for R2013b. It appears that the DAQ Session Based
-% Interface has somewhat changed for R2014a, with syntax like
-% d.functionFunction(....) changed to functionFunction(d, ...). Thanks
-% Mathworks for changing things up for me. Y'all real pals.
+% It appears that the DAQ Session Based Interface has somewhat changed
+% for R2014a, with syntax like d.functionFunction(....) changed to
+% functionFunction(d, ...). Thanks Mathworks for changing things up for me.
+% Y'all real pals.
 %
 % Ver 1.0 by Paul Anzel, 1-Jun-2014
 %   NOTE THIS HAS NOT BEEN DEBUGGED YET! BUGS AND TYPOS ARE GOOD FOR THE
