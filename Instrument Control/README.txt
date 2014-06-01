@@ -6,11 +6,10 @@ filename: File description
 	- Operation status (needs debugging? known issues?)
 	- Other notes
 
-
 C++ ROUTINES:
 - None -
 
-PYTHON ROUTINES:
+LabVIEW ROUTINES:
 - None -
 
 MATLAB ROUTINES:
@@ -19,6 +18,9 @@ simpleDAQ.m: A simple routine for communicating with a DAQ system.
 	- Requires Data Acquisition Toolbox and NImax to be installed
 	- Not debugged
 	- ?
+
+PYTHON ROUTINES:
+- None -
 
 CODE FOLDERS (Extended projects):
 Agilent_Oscil_simple: A set of routines to read data from an Agilent Oscilloscope. 
