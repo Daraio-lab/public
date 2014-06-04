@@ -1,0 +1,33 @@
+Structure idea:
+
+Common:
+	- Files generally useful for people in the lab
+	- Instrument control codes and guides (like how to make a sensor)
+
+Named: (15x)
+	- One for each grad student and postdoc, and Chiara
+		- anzel_p
+		- moleron_m
+		- digiacomo_r
+		- matlack_k
+		- bonanomi_l
+		- burgoyne_h
+		- cha_j
+		- kroedel_s
+		- lin_w
+		- lydon_j
+		- rys_j
+		- thevamaran_r
+		- thevamaran_m
+		- nadkarni_n
+		- daraio_c
+	- Alternately, people can just host their own files on ETH
+
+Solitonik:
+	- Solitonik files
+
+MUG: 
+	- For undergrad and masters students, subfolder for each
+
+Archive:
+	- People's archived work
