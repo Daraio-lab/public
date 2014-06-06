@@ -1,0 +1,11 @@
+Proposed structure:
+
+Public repos:
+	- Instrument Control: routines to control our various instruments
+
+Private repos:
+	- Simulation Code: Some various numeric simulation codes people would find useful.
+	- FEM Code: Some FEM organizing programs (MATLAB for Comsol, Python for ABAQUS) that people would find useful.
+	- Solitonik: For those thar folks.
+	- Active folders for ongoing projects between multiple people. Can move folders to public if we want once we've published the info.
+		E.G. Acoustic Lens
