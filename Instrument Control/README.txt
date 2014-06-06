@@ -1,24 +1,26 @@
 Code list:
 Template
-filename: File description
+Folder name: File description
 	- Code version required to run (Matlab 2013b, Anaconda 1.9.1)
 	- Modules/libraries required
 	- Operation status (needs debugging? known issues?)
 	- Other notes
 
-MATLAB ROUTINES:
-simpleDAQ.m: A simple routine for communicating with a DAQ system.
+
+CODE FOLDERS:
+Agilent3000_Oscil_MATLAB: A set of routines to read data from an Agilent Oscilloscope. 
+	- Written for Matlab R2013b
+	- Requires Data Acquisition Toolbox and oscilloscope VISA drivers
+	- Untested, but taken from operational code. Proper error handling has not been implemented.
+	- Used for the lab's Agilent DSO-3014 oscilloscopes.
+	- Unknown how adaptable the code is to other Agilent oscilloscopes (likely?)
+	- Tektronix oscilloscopes have different commands for talking with the oscilloscpe, so don't use this as a base for them.
+
+NI_DAQ_MATLAB: simpleDAQ.m is a simple routine for communicating with a DAQ system.
 	- Written for R2013b
 	- Requires Data Acquisition Toolbox and NImax to be installed
 	- Not debugged
 	- ?
-
-CODE FOLDERS:
-Agilent_Oscil_simple: A set of routines to read data from an Agilent Oscilloscope. 
-	- Written for Matlab R2013b
-	- Requires Data Acquisition Toolbox and oscilloscope VISA drivers
-	- Untested, but taken from operational code. Proper error handling has not been implemented.
-	- Tektronix oscilloscopes have different commands for talking with the oscilloscpe. Don't use this.
 
 Tektronix2000_Oscil_MATLAB: A few different routines for reading data from a 2000 series Tektronix Oscilloscope.
 	- Written for Matlab R2011a
