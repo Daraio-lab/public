@@ -257,3 +257,7 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+# Ignore common Matlab stuff
+*.asv
+*.mat
