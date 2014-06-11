@@ -136,4 +136,5 @@ end
 %%
 
 % Delete objects.
-delete([deviceObj interfaceObj]);
+delete(deviceObj);
+delete(interfaceObj);
