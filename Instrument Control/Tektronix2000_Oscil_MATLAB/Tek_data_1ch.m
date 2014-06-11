@@ -6,12 +6,12 @@ numRepeat       = 20;
 numTest         = numRepeat*1000;
 
 % Create a VISA-USB object.
-interfaceObj = instrfind('Type', 'visa-usb', 'RsrcName', 'USB0::0x0699::0x036A::C033087::0::INSTR', 'Tag', '');
+interfaceObj = instrfind('Type', 'visa-usb', 'RsrcName',  'USB0::0x0699::0x03A2::C030311::0::INSTR', 'Tag', '');
 
 % Create the VISA-USB object if it does not exist
 % otherwise use the object that was found.
 if isempty(interfaceObj)
-    interfaceObj = visa('NI', 'USB0::0x0699::0x036A::C033087::0::INSTR');
+    interfaceObj = visa('NI',  'USB0::0x0699::0x03A2::C030311::0::INSTR');
 %     interfaceObj = visa('TEK', 'USB0::0x0699::0x036A::C033087::0::INSTR');
 else
     fclose(interfaceObj);
@@ -19,7 +19,7 @@ else
 end
 
 % Create a device object. 
-deviceObj = icdevice('tektronix_tds2024.mdd', interfaceObj);
+deviceObj = icdevice('tektronix_tds2000B.mdd', interfaceObj);
 
 
 % Connect device object to hardware.
@@ -89,4 +89,5 @@ while breakLoop == 0,
 end
 
 % Delete objects.
-delete([deviceObj interfaceObj]);
+delete(deviceObj);
+delete(interfaceObj);
